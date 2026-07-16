@@ -1,0 +1,88 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# ===========================
+# Virtual Environment
+# ===========================
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# ===========================
+# Environment Variables (secrets)
+# ===========================
+.env
+*.env.local
+*.env.*.local
+
+# ===========================
+# Database files
+# ===========================
+*.db
+*.sqlite
+*.sqlite3
+chroma_db/
+
+# ===========================
+# Logs
+# ===========================
+logs/
+*.log
+
+# ===========================
+# Test / Coverage cache
+# ===========================
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.coveragerc
+
+# ===========================
+# Reports (generated output)
+# ===========================
+reports/
+
+# ===========================
+# Data files (large / sensitive)
+# ===========================
+data/
+
+# ===========================
+# IDE / Editor
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===========================
+# OS files
+# ===========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================
+# Docker
+# ===========================
+# (keep Dockerfile and docker-compose.yml tracked)
+
+# ===========================
+# Docs (generated)
+# ===========================
+docs/_build/

@@ -1,0 +1,61 @@
+# Enterprise Research Assistant RAG — Dependencies
+# Python 3.10+
+
+# ── Core Web Framework ────────────────────────────────────────────────────────
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.12
+pydantic==2.10.3
+pydantic-settings==2.6.1
+
+# ── HTTP ─────────────────────────────────────────────────────────────────────
+requests==2.32.3
+urllib3>=2.2.3,<3
+chardet>=5.2.0,<6
+charset-normalizer>=3.3.2,<4
+
+# ── LLM Providers ────────────────────────────────────────────────────────────
+google-generativeai==0.8.3
+openai==1.57.4
+
+# ── LangChain ────────────────────────────────────────────────────────────────
+langchain==0.3.13
+langchain-core==0.3.28
+langchain-community==0.3.13
+langsmith==0.2.3
+
+# ── Vector Databases ─────────────────────────────────────────────────────────
+chromadb==0.5.23
+faiss-cpu==1.14.3
+
+# ── Embeddings ────────────────────────────────────────────────────────────────
+sentence-transformers==3.3.1
+
+# ── Document Processing ───────────────────────────────────────────────────────
+pypdf==5.1.0
+unstructured[pdf]==0.16.11
+python-docx==1.1.2
+
+# ── Reranking ────────────────────────────────────────────────────────────────
+flashrank==0.2.9
+
+# ── PDF Report Generation ────────────────────────────────────────────────────
+reportlab==4.2.5
+
+# ── Database ─────────────────────────────────────────────────────────────────
+sqlalchemy==2.0.36
+
+# ── Logging ──────────────────────────────────────────────────────────────────
+loguru==0.7.3
+
+# ── Utilities ────────────────────────────────────────────────────────────────
+python-dotenv==1.0.1
+numpy==1.26.4
+tenacity==9.0.0
+httpx==0.28.1
+aiofiles==24.1.0
+tqdm==4.66.0
+# ── Testing ───────────────────────────────────────────────────────────────────
+pytest==8.3.4
+pytest-asyncio==0.24.0
+pytest-cov==6.0.0
